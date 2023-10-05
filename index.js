@@ -22,7 +22,7 @@ app.use("/user", user);
 app.use("/posts", posts);
 app.use("/job", job);
 
-const port = 4000;
+const port = 10000;
 app.listen(port, ()=>{
     console.log(`app listening at port http://localhost:${port}`);
 })
